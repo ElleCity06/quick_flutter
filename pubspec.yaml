@@ -1,6 +1,6 @@
 name: quick_flutter
-description: 帮助你快速构建flutter项目
-version: 0.0.1
+description: 帮助你快速构建flutter项目,集成Provider打造MVVM模式
+version: 0.0.2
 #author: zavier zhou
 homepage: https://github.com/ElleCity06
 repository: https://github.com/ElleCity06/quick_flutter
@@ -25,7 +25,7 @@ dependencies:
   #toast https://pub.dev/packages/fluttertoast
   fluttertoast: ^8.0.3
   # https://github.com/flutter/plugins/tree/master/packages/path_provider
-  path_provider: '>=2.0.0 <4.0.0'
+  path_provider: ^2.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -34,8 +34,6 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
-flutter:
-
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

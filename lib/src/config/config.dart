@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quick_flutter/quick_flutter.dart';
-import 'package:quick_flutter/src/base/view/default_state_widget.dart';
 import 'package:quick_flutter/src/base/view/view_state.dart';
 
 class LogConfig {

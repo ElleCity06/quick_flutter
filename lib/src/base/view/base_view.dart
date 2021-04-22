@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:quick_flutter/quick_flutter.dart';
-import 'package:quick_flutter/src/base/view/default_state_widget.dart';
 import 'package:quick_flutter/src/base/view/view_state.dart';
 import 'package:quick_flutter/src/base/view_model/base_view_model.dart';
 

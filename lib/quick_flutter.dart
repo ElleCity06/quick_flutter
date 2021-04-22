@@ -6,7 +6,7 @@ export 'src/base/view_model/base_view_model.dart';
 export 'src/base/view_model/base_list_view_model.dart';
 export 'src/config/config.dart';
 export 'src/base/view/view_state.dart';
-export 'src/http/Http.dart';
+export 'src/http/http.dart';
 export 'src/http/interfaces/http_config.dart';
 export 'src/http/exception/custom_exception.dart';
 

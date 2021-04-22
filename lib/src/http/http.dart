@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:connectivity/connectivity.dart';
 import 'package:dio/adapter.dart';
 import 'package:dio/dio.dart';
@@ -31,11 +30,12 @@ class Http {
 
   /// <h3>初始化</h3>
   /// <p> [iHttpConfig] http配置 </p>
-  static void init(IHttpConfig iHttpConfig, {IToastConfig? iToasConfig}) {
+  static void init(IHttpConfig iHttpConfig, {IToastConfig? iToastConfig}) {
     _httpConfig = iHttpConfig;
-    if (_iToastConfig != null) {
-      _iToastConfig = _iToastConfig;
+    if(iToastConfig!=null){
+      _iToastConfig = iToastConfig;
     }
+
     _dio = Dio(_httpConfig?.configBaseOptions());
 
     /// 添加拦截器 ,执行的顺序是 FIFO
