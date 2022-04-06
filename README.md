@@ -1,7 +1,7 @@
 
 
 ## 一、quick_flutter 简介
- quick_fluuter 意在快速构建一个简单flutter app,结合Provider实现flutter的MVVM模式。
+ quick_flutter 意在快速构建一个简单flutter app,结合Provider实现flutter的MVVM模式。
 
  #### 基于MVVM架构封装Flutter基础库，包含：  
 1、基于Dio进行二次封装,提供默认配置以及局部配置。结合baseview的缺省页面进行页面交互。
